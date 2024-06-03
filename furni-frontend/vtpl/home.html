@@ -1,0 +1,262 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+  
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+  
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/spapp.css">
+	<title>Furni</title>
+	<script src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Modern Interior <span clsas="d-block">Design Studio</span></h1>
+								<p class="mb-4">Welcome to our modern interior design studio, where every detail is meticulously crafted to perfection. From exquisite 
+									furnishings to thoughtful accents, we curate spaces that reflect your unique style and elevate your living experience.</p>
+								<p><a href="#shop" class="btn btn-secondary me-2">Shop Now</a><a href="#about" class="btn btn-white-outline">Explore</a></p>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="hero-img-wrap">
+								<img src="images/couch.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		<!-- Start Product Section -->
+		<div class="product-section">
+			<div class="container">
+				<div class="row">
+
+					<!-- Start Column 1 -->
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+						<p class="mb-4">Crafted with premium materials for unparalleled quality and durability, our handcrafted pieces 
+							are meticulously designed to elevate your space with timeless elegance.</p>
+						<p><a href="shop.html" class="btn">Explore</a></p>
+					</div> 
+					<!-- End Column 1 -->
+
+					<!-- Start Column 2 -->
+					<div class="col-6 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="#item" onclick="fetchDataWithId(1)">
+							<img src="images/product-1.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Nordic Chair</h3>
+							<strong class="product-price">$80.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</a>
+					</div> 
+					<!-- End Column 2 -->
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="#item" onclick="fetchDataWithId(2)">
+							<img src="images/product-2.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Kruzo Aero Chair</h3>
+							<strong class="product-price">$100.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</a>
+					</div>
+					<!-- End Column 3 -->
+
+					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="#item" onclick="fetchDataWithId(3)">
+							<img src="images/product-3.png" class="img-fluid product-thumbnail">
+							<h3 class="product-title">ErgoSvelte Chair</h3>
+							<strong class="product-price">$90.00</strong>
+
+							<span class="icon-cross">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</a>
+					</div>
+					<!-- End Column 4 -->
+
+				</div>
+			</div>
+		</div>
+		<!-- End Product Section -->
+
+		<!-- Start Why Choose Us Section -->
+		<div class="why-choose-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h2 class="section-title">Why Choose Us</h2>
+						<p>Explore the essence of modern interior design with us. Crafted with excellence, 
+							our handcrafted pieces elevate your space with timeless elegance and superior craftsmanship.</p>
+
+						<div class="row my-5">
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/truck.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Fast &amp; Free Shipping</h3>
+									<p>Experience swift and complimentary delivery on all orders.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/bag.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Easy to Shop</h3>
+									<p>Effortless navigation, intuitive design. Find what you need with ease.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/support.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>24/7 Support</h3>
+									<p>Always here to help. Reach out anytime for assistance.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="images/return.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Hassle Free Returns</h3>
+									<p>Simple returns, no stress. We've got you covered if things don't work out.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="img-wrap">
+							<img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Why Choose Us Section -->
+
+		<!-- Start We Help Section -->
+		<div class="we-help-section1">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 mb-5 mb-lg-0">
+						<div class="imgs-grid">
+							<div class="grid grid-1"><img src="images/img-grid-1.jpg" alt="Untree.co"></div>
+							<div class="grid grid-2"><img src="images/img-grid-2.jpg" alt="Untree.co"></div>
+							<div class="grid grid-3"><img src="images/img-grid-3.jpg" alt="Untree.co"></div>
+						</div>
+					</div>
+					<div class="col-lg-5 ps-lg-5">
+						<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+						<p>Effortlessly achieve contemporary aesthetics. Our expert guidance ensures seamless transformation. 
+							Whether it's revamping a space or starting from scratch, we're here to make your vision a reality.</p>
+
+						<ul class="list-unstyled custom-list my-4">
+							<li>Expert guidance for contemporary interior design transformations.</li>
+							<li>Seamless assistance from revamping spaces to starting anew.</li>
+							<li>Your vision, our expertise: Crafting modern interiors effortlessly.</li>
+							<li>Elevate your space with our assistance in achieving contemporary aesthetics.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End We Help Section -->
+
+		<!-- Start Popular Product -->
+		<div class="popular-product">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/RoundSofa.png" alt="Image" class="img-fluid" style="margin-top: 25px;">
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(6)">Azure Circle Sofa</a></h3>
+								<p>Experience modern luxury with the sleek Azure Circle Sofa.</p>
+								<p>$2000.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/LCCouch.png" alt="Image" class="img-fluid" style="margin-top: 20px;">
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(4)">LuxeComfort Couch</a></h3>
+								<p>Elevate your lounging experience with unparalleled comfort and timeless design.</p>
+								<p>$2000.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/BeigeSofa.png" alt="Image" class="img-fluid" style="margin-top: 20px;" >
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(5)">Beige Bliss Leather Sofa</a></h3>
+								<p>Indulge in timeless comfort with the Beige Bliss Leather Sofa.</p>
+								<p>$2500.00</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Popular Product -->	
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "name": "Nordic Chair",
+      "price": 80.00,
+      "description": "Introducing our Nordic Chair: a blend of Scandinavian simplicity and modern comfort. Crafted for durability and elegance, its ergonomic design offers exceptional lumbar support for extended sitting. With its minimalist silhouette and neutral color palette, this chair seamlessly integrates into any space, from home offices to living rooms. Elevate your comfort and style with the Nordic Chair – where simplicity meets sophistication.",
+      "point1": "Scandinavian-inspired design for timeless elegance",
+      "point2": "Ergonomic build for optimal comfort during longer sitting",
+      "point3": "Neutral color palette complements various interior styles",
+      "point4": "Versatile chair suitable for home offices, living rooms, and more",
+      "image": "images/product-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Kruzo Aero Chair",
+      "price": 100.00,
+      "description": "Introducing the Kruzo Aero Chair: A fusion of cutting-edge design and supreme comfort. Engineered with precision and style, its ergonomic construction ensures optimal support for prolonged use. Featuring sleek lines and futuristic accents, this chair adds a touch of contemporary flair to any environment, be it professional offices or modern living spaces. Elevate your seating experience with the Kruzo Aero Chair - where innovation meets elegance.",
+      "point1": "Sleek and modern design inspired by aerospace engineering",
+      "point2": "Advanced ergonomic features provide superior lumbar support and comfort",
+      "point3": "Streamlined silhouette and metallic accents enhance contemporary interiors",
+      "point4": "Multi-functional design suitable for offices, conference rooms, and more",
+      "image": "images/product-2.png"
+    },
+    {
+      "id": 3,
+      "name": "ErgoSvelte Chair",
+      "price": 90.00,
+      "description": "Introducing the Kruzo Aero Chair: A fusion of cutting-edge design and supreme comfort. Engineered with precision and style, its ergonomic construction ensures optimal support for prolonged use. Featuring sleek lines and futuristic accents, this chair adds a touch of contemporary flair to any environment, be it professional offices or modern living spaces. Elevate your seating experience with the Kruzo Aero Chair – where innovation meets elegance.",
+      "point1": "Sleek and modern design inspired by aerospace engineering",
+      "point2": "Advanced ergonomic features provide superior lumbar support and comfort",
+      "point3": "Streamlined silhouette and metallic accents enhance contemporary interiors",
+      "point4": "Multi-functional design suitable for offices, conference rooms, and more",
+      "image": "images/product-3.png"
+    },
+    {
+      "id": 4,
+      "name": "LuxeComfort Couch",
+      "price": 2000.00,
+      "description": "Introducing LuxeComfort Couch: Indulge in unparalleled comfort with our LuxeComfort Couch, meticulously handcrafted to elevate your lounging experience. Sink into plush cushions and experience the perfect balance of support and softness. With its timeless design and premium materials, this couch effortlessly enhances any living space, providing a cozy haven for relaxation and social gatherings alike.",
+      "point1": "Luxurious comfort with only the best plush cushions by our design",
+      "point2": "Timeless design to complement any decor that you desire",
+      "point3": "Handcrafted with premium materials for durability and style",
+      "point4": "The perfect centerpiece for cozy evenings and entertaining guests",
+      "image": "images/LCCouch.png"
+    },
+    {
+      "id": 5,
+      "name": "Beige Bliss Leather Sofa",
+      "price": 2500.00,
+      "description": "Experience the epitome of comfort and style with our Beige Bliss Leather Sofa. Upholstered in premium beige leather, this sofa offers a luxurious retreat for lounging and entertaining. Its timeless design and durable construction make it a versatile addition to any living space, elevating both the aesthetic and functionality of your home.",
+      "point1": "Sink into the soft cushions and enjoy ultimate relaxation after a long day",
+      "point2": "The classic beige color and sleek design add elegance to any decor style",
+      "point3": "Built with a sturdy frame and high-quality leather, ensuring durability and easy maintenance",
+      "point4": "Perfect for formal gatherings, this sofa effortlessly enhances any room's ambiance",
+      "image": "images/BeigeSofa.png"
+    },
+    {
+      "id": 6,
+      "name": "Azure Circle Sofa",
+      "price": 2000.00,
+      "description": "Elevate your living space with the Azure Circle Sofa, a stunning blend of modern design and luxurious comfort. Crafted with a sleek silver-blue upholstery, this circular sofa adds a touch of sophistication to any room. Its unique shape and plush cushions create an inviting atmosphere for relaxation and socializing, making it the focal point of your home.",
+      "point1": "Sleek circular design for a contemporary touch",
+      "point2": "Sink into sumptuous cushions for ultimate relaxation",
+      "point3": "Perfect for small gatherings or cozy nights in",
+      "point4": "Eye-catching silver-blue color adds flair to any space",
+      "image": "images/RoundSofa.png"
+    },
+    {
+      "id": 7,
+      "name": "Gilded Marble Coffee Table",
+      "price": 780.00,
+      "description": "Introducing the Gilded Marble Coffee Table, a fusion of timeless elegance and modern aesthetics. This exquisite piece features a luxurious marble stone top adorned with delicate veining, exuding sophistication and charm. Complemented by sleek golden legs, the table brings a touch of opulence to any living space, elevating your decor to new heights. Whether serving as a centerpiece in your lounge or complementing your study area, this coffee table combines form and function seamlessly, making it a must-have addition to your home.",
+      "point1": "Luxurious Marble Stone Top with Elegant Veining",
+      "point2": "Gilded Golden Legs for a Touch of Opulence",
+      "point3": "Versatile Design Suitable for Various Living Spaces",
+      "point4": "Elevates Decor with Timeless Sophistication",
+      "image": "images/WhiteTable.png"
+    },
+    {
+      "id": 8,
+      "name": "Wavecrest Wooden Coffee Table",
+      "price": 430.00,
+      "description": "Introducing the Wavecrest Wooden Coffee Table, a harmonious blend of nature-inspired design and functional elegance. Crafted from rich, solid wood, this round coffee table boasts gracefully curved legs reminiscent of ocean waves, adding a dynamic touch to your living space. Its smooth, polished surface provides the perfect backdrop for displaying decorative items or enjoying a cozy evening with friends and family. Elevate your home decor with the Wavecrest Coffee Table and bring the beauty of the outdoors inside.",
+      "point1": "Nature-Inspired Design with Wave-Like Legs",
+      "point2": "Crafted from High-Quality Solid Wood for Durability",
+      "point3": "Versatile Round Shape Fits Seamlessly in Various Settings",
+      "point4": "Elegant and Functional Addition to Any Living Room",
+      "image": "images/RoundTable.png"
+    }
+]

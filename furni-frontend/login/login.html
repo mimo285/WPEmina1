@@ -1,0 +1,117 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Furni</title>
+	</head>
+
+	<body>
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Login</h1>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		<div class="untree_co-section">
+		    <div class="container">
+		      <div class="row mb-5">
+		        <div class="col-md-12">
+		          <div class="border p-4 rounded" role="alert">
+		            Don't have an account? <a href="#registration">Click here</a> to register
+		          </div>
+		        </div>
+		      </div>
+		      <div class="row">
+		        <div class="col-md-6 mb-5 mb-md-0">
+		          <h2 class="h3 mb-3 text-black">Login</details></h2>
+		          <div class="p-3 p-lg-5 border bg-white">
+		           
+					<form id="loginForm">
+						<div class="form-group row">
+						  <div class="col-md-6">
+							<label for="email" class="text-black">Email <span class="text-danger">*</span></label>
+							<input type="email" class="form-control" id="email" name="email">
+						  </div>
+						  <div class="col-md-6">
+							<label for="password" class="text-black">Password <span class="text-danger">*</span></label>
+							<input type="password" class="form-control" id="password" name="password">
+						  </div>
+						</div>
+						<div class="form-group" style="margin-top: 20px;">
+							<button
+                         type="submit"
+                         type="button"
+                         class="btn btn-primary btn-block"
+                         data-bs-toggle="modal"
+                         data-bs-target="#add-login-modal"
+                       >
+                         Log in
+                       </button>
+						</div>
+					  </form>					  
+
+					<div class="alert alert-success mt-4 success-message" role="alert" style="display: none;">
+						Login successful!
+					</div>
+					<div class="alert alert-danger mt-4 error-message" role="alert" style="display: none;">
+                        Wrong email or password!
+                    </div>
+
+		            <div class="form-group">
+		              <div class="collapse" id="create_an_account">
+		                    <label for="c_account_password" class="text-black">Account Password</label>
+		                    <input type="email" class="form-control" id="c_account_password" name="c_account_password" placeholder="">
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+				
+		      <!-- </form> -->
+		    </div>
+
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+  			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
+  			<script src="js/bootstrap.bundle.min.js"></script>
+  			<script src="/WPEmina/furni-frontend/utils/constants.js"></script>
+  			<script src="/WPEmina/furni-frontend/utils/utils.js"></script>
+  			<script src="/WPEmina/furni-frontend/utils/rest_client.js"></script>
+  			<script src="js/tiny-slider.js"></script>
+  			<script src="js/custom.js"></script>
+  			<script src="js/form.js"></script>
+	</body>
+
+</html>

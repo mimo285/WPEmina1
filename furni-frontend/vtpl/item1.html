@@ -1,0 +1,139 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Furni</title>
+	</head>
+
+	<body>
+
+		<!-- Start We Help Section -->
+		<div class="we-help-section">
+			<!-- <div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 mb-5 mb-lg-0">
+						<div class="imgs-grid" style="margin-left: 50px;">
+							<div class="grid grid-1"><img src="images/product-1.png" alt="Untree.co"></div>
+						</div>
+					</div>
+					<div class="col-lg-5 ps-lg-5">
+						<h2 class="section-title mb-4">Nordic chair</h2>
+						<p>Introducing our Nordic Chair: a blend of Scandinavian simplicity and modern comfort. Crafted for durability and elegance, its ergonomic design offers exceptional lumbar support for extended sitting. With its minimalist silhouette and neutral color palette, this chair seamlessly integrates into any space, from home offices to living rooms. Elevate your comfort and style with the Nordic Chair – where simplicity meets sophistication.</p>
+
+						<ul class="list-unstyled custom-list my-4">
+							<li>Scandinavian-inspired design for timeless elegance</li>
+							<li>Ergonomic build for optimal comfort during longer sitting</li>
+							<li>Neutral color palette complements various interior styles</li>
+							<li>Versatile chair suitable for home offices, living rooms, and more</li>
+						</ul>
+						<h2 class="section-title mb-4">$80.00</h2>
+					</div>
+				</div>
+				<div class="form-group" style="text-align: right;">
+					<button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='#'">Add to cart</button>
+				</div>-->
+		</div>
+		<!--End We Help Section -->
+
+		<!-- Start Popular Product -->
+		<div class="popular-product">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/RoundSofa.png" alt="Image" class="img-fluid" style="margin-top: 30px;">
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(6)">Azure Circle Sofa</a></h3>
+								<p>Experience modern luxury with the sleek Azure Circle Sofa.</p>
+								<p>$2000.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/product-2.png" alt="Image" class="img-fluid">
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(2)">Kruzo Aero Chair</a></h3>
+								<p>Modern design, aerospace-inspired comfort.</p>
+								<p>$100.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="product-item-sm d-flex">
+							<div class="thumbnail">
+								<img src="images/product-3.png" alt="Image" class="img-fluid">
+							</div>
+							<div class="pt-3">
+								<h3><a href="#item" onclick="fetchDataWithId(3)">ErgoSvelte Chair</a></h3>
+								<p>Sleek sophistication with ergonomic excellence.</p>
+								<p>$90.00</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Popular Product -->	
+
+		<script>
+			function addToCart(itemId) {
+				// Check if there are existing items in the cart
+				var cartItems = localStorage.getItem("cartItems");
+	
+				// If no items are in the cart, initialize an empty array
+				if (!cartItems) {
+					cartItems = [];
+				} else {
+					// If items are already in the cart, parse the JSON string to an array
+					cartItems = JSON.parse(cartItems);
+				}
+	
+				// Add the item ID to the cart
+				cartItems.push(itemId);
+	
+				// Convert the cart items array back to a JSON string and save it to local storage
+				localStorage.setItem("cartItems", JSON.stringify(cartItems));
+	
+				// Optionally, you can display a message to the user indicating that the item has been added to the cart
+				alert("Item added to cart!");
+			}
+		</script>
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+		<!--<script src="js/main.js"></script>-->
+		
+		
+
+	</body>
+
+</html>

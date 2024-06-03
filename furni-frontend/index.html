@@ -1,0 +1,152 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+  
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+  
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/spapp.css">
+	<title>Furni</title>
+	<script src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="#homepage">Furni<span>.</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li >
+							<a class="nav-link" href="#homepage">Home</a>
+						</li>
+						<li><a class="nav-link" href="#shop">Shop</a></li>
+						<li><a class="nav-link" href="#about">About us</a></li>
+						<li><a class="nav-link" href="#contact">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" onclick="Utils.logout()" href="#logout" class="nav-item">Logout</a></li>
+						<li><a class="nav-link" href="#cart"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<main id="spapp" role="main">
+			<section id="login" data-load="login.html"> </section>
+			<section id="registration" data-load="register.html"></section>
+			<section id="contact" data-load="contact.html"></section>
+			<section id="shop" data-load="shop.html"></section>
+			<section id="cart" data-load="cart.html"></section>
+			<section id="about" data-load="about.html"></section>
+			<section id="checkout" data-load="checkout.html"></section>
+			<section id="thankyou" data-load="thankyou.html"></section>
+			<section id="item" data-load="item1.html"> </section>
+			<section id="homepage" data-load="home.html"> </section>
+		  </main>
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+
+				<div class="sofa-img">
+					<img src="images/sofa.png" alt="Image" class="img-fluid" style="width: 300px; height: 300px; margin-top: 30px;">
+				</div>
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
+						<p class="mb-4">Your destination for curated furnishings, meticulously crafted to elevate every corner of your space. 
+							From timeless classics to contemporary pieces, discover the perfect blend of comfort and style for your home.</p>
+
+						<ul class="list-unstyled custom-social">
+							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#about">About us</a></li>
+									<li><a href="#shop">Shop</a></li>
+									<li><a href="#contact">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#contact">Support</a></li>
+									<li><a href="#about">Knowledge base</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#contact">Jobs</a></li>
+									<li><a href="#about">Our team</a></li>
+									<li><a href="#about">Leadership</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</footer>
+		<!-- End Footer Section -->	
+		<!--<script src="js/checkoutcart.js"></script>-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/jquery.spapp.js"></script>t>
+		<!--<script src="js/main.js"></script> -->
+		<script src="js/single.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.blockUI.js"></script>
+		<script src="js/registration.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/checkout.js"></script>
+		<script src="utils/utils.js"></script>
+		<script src="utils/rest_client.js"></script>
+		<script src="utils/constants.js"></script>	
+		<script src="js/cart2.js" defer></script>
+		
+		<script>
+			if (Utils.get_from_localstorage("user")) {
+				Utils.init_spapp();
+			} else {
+				window.location = "login/login.html";
+			}
+		</script>
+		
+	</body>
+
+</html>
