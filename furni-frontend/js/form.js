@@ -46,7 +46,7 @@ $("#loginForm").validate({
             $(".success-message").hide();
         }, 5000);
     
-        $.post("/furni-backend/auth/login", data)
+        $.post("/../WPEmina/furni-backend/auth/login", data)
         .done(function(response) {
             Utils.unblock_ui("#loginForm"); 
             $(".success-message").show(); 
