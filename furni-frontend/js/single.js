@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Fetching item data from API...");
         // Change the URL to point to your PHP endpoint
         $.get({
-            url:  "/../furni-backend/items",
+            url:  "/../WPEmina/furni-backend/items",
             dataType: "json",
             success: function(data) {
                 let itemData = data.find(item => item.item_id == id);
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Data being sent to backend:", dataToSend);
 
     $.ajax({
-        url: "/../furni-backend/add_to_cart",
+        url: "/../WPEmina/furni-backend/add_to_cart",
         type: "POST",
         headers: {
             'Authorization': 'Bearer ' + token
@@ -116,7 +116,7 @@ function fetchCartDataFromDB() {
     const token = user.token;
 
     $.ajax({
-        url: "/../furni-backend/get_cart_items",  // Assuming you have an endpoint to get cart items
+        url: "/../WPEmina/furni-backend/get_cart_items",  // Assuming you have an endpoint to get cart items
         type: "GET",
         headers: {
             'Authorization': 'Bearer ' + token

@@ -4,7 +4,7 @@ ini_set("display_errors", 1);
 ini_set("display_startup_errors", 1);
 error_reporting(E_ALL ^ (E_NOTICE | E_DEPRECATED));
 
-
+/*
 class Config {
     public static function DB_NAME() {
         return Config::get_env("DB_NAME", "furni");
@@ -28,14 +28,14 @@ class Config {
         return isset($_ENV[$name]) && trim($_ENV[$name]) != "" ? $_ENV[$name] : $default;
     }
 }
-
+*/
 
 //database access credentials
 
-/*define("DB_NAME", "furni");
+define("DB_NAME", "furni");
 define("DB_PORT", 3306);
 define("DB_USER", "root");
 define("DB_PASSWORD", "");
 define("DB_HOST", "127.0.0.1");
 
-define('JWT_SECRET', 'L0ky$aCZc0Czzc$V7MvJ*(F-y//=m,');*/
+define('JWT_SECRET', 'L0ky$aCZc0Czzc$V7MvJ*(F-y//=m,');
