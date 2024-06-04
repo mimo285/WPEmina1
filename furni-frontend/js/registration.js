@@ -46,7 +46,7 @@ $("#registrationForm").validate({
 
         $('#add-patient-modal button[type="cancel"]').trigger("click");
 
-        $.post("/../WPEmina/furni-backend/add_user", data)
+        $.post("/../furni-backend/add_user", data)
         .done(function(data){
             Utils.unblock_ui("#add-patient-modal");
             $("#add-patient-modal").modal("toggle");
